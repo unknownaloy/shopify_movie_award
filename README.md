@@ -3,7 +3,7 @@
 This is a frond-end based web app.
 
 ## Application Link
-(https://www.linkwillgohere.com)
+https://unknownaloy.github.io/shopify_movie_award/
 
 ## Features
 * Search OMDB and display the results (movies only)
