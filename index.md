@@ -22,7 +22,7 @@
                 <p>Movie title</p>
                 <div class="input-wrapper">
                     <i class="fas fa-search icon"></i>
-                    <input type="text" class="form-control input-form" id="searchQuery">
+                    <input type="text" class="form-control input-form" id="searchQuery" placeholder="Enter movie name...">
                 </div>
             </div>
         </div>
