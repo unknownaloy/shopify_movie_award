@@ -1,0 +1,143 @@
+body {
+    max-width: 90rem;
+    margin: 8rem auto 0;
+    background-color: #FBF7ED;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+button {
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.card-body p {
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.card-body .card-title {
+    margin-bottom: 0.625rem;
+}
+
+.input-form {
+    padding-left: 50px;
+    font-weight: 300;
+}
+
+
+.input-wrapper {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: calc(50% - 0.5em);
+    left: 10px;
+}
+
+.search-nomination {
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.searchResult .btn {
+    color: #008060;
+}
+
+.nomineeList .btn {
+    color: red;
+}
+
+
+.btn:hover {
+    color: white;
+}
+
+.btn:disabled,
+.btn[disabled] {
+    color: #666666;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #004C3F;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
