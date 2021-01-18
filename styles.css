@@ -141,3 +141,15 @@ li {
         opacity: 0;
     }
 }
+
+@media only screen and (max-width: 540px) {
+    .search-nomination {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .search-nomination .card {
+        margin-top: 1rem;
+    }
+
+}
